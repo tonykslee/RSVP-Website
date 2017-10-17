@@ -178,13 +178,12 @@
                 <input class="w3-input w3-border" type="text" placeholder="Last Name" required name="Last_Name">
               </div>
             </div>
-            
-            
+            <button class="w3-button w3-black w3-right w3-section">
+              <i class="fa fa-paper-plane"></i> Find My Reservation
+            </button>
           </form>
 
-          <button id ="modalBtn" class="w3-button w3-black w3-right w3-section">
-            <i class="fa fa-paper-plane"></i> Find My Reservation
-          </button>
+          <button id="modalBtn" class="button">Click Here</button>
           
           <div id="simpleModal" class="modal">
             <div class="modal-content">
@@ -201,8 +200,8 @@
               </div>
             </div>
           </div>
-          
-          <script src="main.js"></script>
+
+          <script src="/public_html/main.js"></script>
 
         </div>
       </div>
