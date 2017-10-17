@@ -13,6 +13,64 @@ body, html {
     font-family: myMiltonOneBold; src: url('Milton_One_Bold.otf');
 }
 
+.modal{
+	display:none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color:rgba(0, 0, 0, .5);
+}
+
+.modal-content{
+	background-color:#f4f4f4;
+	margin: 30% auto;
+	padding: 6px;
+	width: 70%;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .2), 0 20px 30px 0 rgba(0, 0, 0, .2);
+	border-radius: 6px;
+	animation-name: modalopen;
+	animation-duration:1s;
+}
+
+
+.modal-header h2, .modal-footer h3{
+    margin:0;
+}
+
+.modal-footer{
+    background:coral;
+    padding:10px;
+    color:white;
+    text-align: center;
+}
+
+.modal-header{
+	background:coral;
+	padding:15px;
+	color:white;
+}
+
+.modal-body{
+    padding:10px 20px;
+}
+
+
+.closeBtn{
+	color:white;
+	float: right;
+	font-size: 30px;
+}
+
+.closeBtn:hover, .closeBtn:focus{
+	color:#000;
+	text-direction: none;
+	cursor:pointer;
+}
+
 /* Annie Tran & Tony Lee font */
 .mainHeader { 
     background: black;
@@ -20,8 +78,7 @@ body, html {
     font-family:myMiltonOneBold;
     font-size:100px;
     padding: 0px 50px 0px 50px;
-    animation-name: initialEntrance;
-    animation-duration: 1;    
+    border-radius: 6px;
 }
 
 /* Create a Parallax Effect */
@@ -60,7 +117,7 @@ body, html {
     }
 }
 
-@keyframes initialEntrance{
-    from{opacity: 0}
-    to{opacity:.6}
+@keyframes modalopen{
+	from{opacity: 0}
+	to {opacity: 1}
 }

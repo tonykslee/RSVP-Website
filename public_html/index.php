@@ -179,8 +179,8 @@
               </div>
             </div>
             
-            <button class="w3-button w3-black w3-right w3-section" type="submit">
-              <i class="fa fa-paper-plane"></i> SUBMIT
+            <button id ="modalBtn" class="w3-button w3-black w3-right w3-section" type="submit">
+              <i class="fa fa-paper-plane"></i> Find My Reservation
             </button>
           </form>
           
@@ -244,11 +244,12 @@
         }
     }
     </script>
+    
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-FvCbyBmp6wMZf7au40Txx0pMZ4rBJm4&callback=myMap"></script>
     <!--
     To use this code on your website, get a free API key from Google.
     Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
     -->
-
+    
   </body>
 </html>
