@@ -1,0 +1,66 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", sans-serif;
+}
+
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Wedding Font Import named myMiltonOneBold */
+@font-face {
+    font-family: myMiltonOneBold; src: url('Milton_One_Bold.otf');
+}
+
+/* Annie Tran & Tony Lee font */
+.mainHeader { 
+    background: black;
+    opacity: .8;
+    font-family:myMiltonOneBold;
+    font-size:100px;
+    padding: 0px 50px 0px 50px;
+    animation-name: initialEntrance;
+    animation-duration: 1;    
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('https://lh3.googleusercontent.com/wrcXWv-mZ6zeqftUdJViuuc3btYD_SaJc2gY7F9EK6epM81YUp0ZvDBrO1po6bwjjw5QQ98-V0IrdrRxjs1gEWPsw04hEslyy_h4gUSRx3n8qh7XE1T93-GWDt2bYvVOwo6Oag0NYQE9D29JrO1cS1dKAfsRPJA-mddF-ev7Kbw9qTZEVEvK8CdAgnYyA__kDTLozkGmD0qUY-Ke_QfzLT9wgMInqOUvjaxym3TSJQmmQTtNfAg2DPKK3U0DHUHu6qk4Z9P3z9ROtbl2AyiODCGQwPewSG_9QMPcfD_Z_-iSzUe8zu8WiNT70sWjOEs_lHfUq96MTmuuz3gLZcEEVmrcBaGkZgxikskRtYH_zOFXk7LyZq0CzovZbZwm4xFRZCkN451KrDA4JXWWSjume0uoshiAmmGYhtG2fLpnLCMc70p1di1u1GNO7o7_7WWQHh_W0ytaLtxkfQ_3AXHPI6QazyxjFvMmrQBKwkZtrrevZBN4CQwnmFaTitVVtXNHUsMHwGeAMQfXCL6IbcKuRA5nd4GEFEv30z30Aszdki9IR3XkrymqoDo5Sk6MlTz7tItoAgBNTzItow44i-SorKNwUmjSuv1KdJstXsYwgtw=w1428-h949-no');
+    min-height: 100%;
+}
+
+/* Second image (About Us) */
+.bgimg-2 {
+    background-image: url("https://lh3.googleusercontent.com/rahVINVw_ClbEhjOI-6EBDVx9YBD_q5LgLyskY0O-LkkPKebmkWm8j2b6xj0Hsdw4P6iCrBj0X4vlEaN3iD2TrsCi6Hl1I_WB-8CgEj_HJr0QqVNpQ-gGTH1fbV6MMI5J9I3k95rPQg1Ly2u0QWueC2SbLoafgjVZj5jIRHvSJIXIZAERcD_6qLYLWNKQNjXGJqKOjA5dr-gb2oSCvRabK34CJirxuvxDTZW2IWDkBxaOiSpxgvbU6eubfrRTcvRzdL_SW17SU6kDI5SZ79ixHfIbJzOxMMeObpgBXVqDy6j0CXy4kFA0D_oVUYbL7K4LAQShSGNzcOAdLiAUtRobtI-wy9tU7yJ-YU7u-bRbgqhWMOaF-UYkIHhQH3ZL_06p8cQAuOUXSWZG2RazzFpyp4njeTyGoon0ELETaCJVdxPtPQRLG-e93aWGoxYJE290WJi25Dw47571f7YrD8zh9Igy4Ox-YpF-8yTKC98cIOzPSZSbSKmYgT28Q0K352KQE3DlDjz-PhI7rCuZZKOZRVEE8FY4Zv9uJcwwMxFqs17_hOqS_EQIn_M13FFQCVGnN3rHEapqIAIV3I2ycjUJWtG0dMoDKWS8Y8DS7w0loc=w1428-h949-no");
+    min-height: 400px;
+}
+
+/* Third image (Registry) */
+.bgimg-3 {
+    background-image: url("https://lh3.googleusercontent.com/MP3zb46w1gves4AoeVHVHWUEcsg76n5q5BckGsjQRQZJYl15d1XFvsdNEB55uaopb8AKYOD-8UIJDmniCDEaKExUqgR-S0THW5NZEdI8BlH8yNyiLISs3aajYiJU8U_vStiQfk32hYecizINdvw7SmzRyd62erOtTSxNOjsXuFkBz71goBVhJlMZ9joedSMJHZPj7-RJX9AGsIN-H5ok4X5jrn0G_cMzJg1ki5iySW_Fj9o0IUdIWDV_huXEUYgY1Gt-BxDm8jiOeppZC0dxyZHCwkM_A9yuPKzg-SPzw9opVVqcujGJO9e-mqUmgLLDbXCVDGBWGjZrBGdeL18d0VWpOhGXdSk_Tre4wMJKxVEQ-Fk5lyoFNI-k0W9_4G3LBqP4WBYe9UA87OjecFrzW0vG8SiTWG80Kyq-CMpFKFzALh-B8MmRv2EzBudzo92TeK42PBtZCgKJHPndLMXGEPiId_88vKiZam1A5UHfbA8_7W2CBjOlH5V-QKYiuOdnzu4S6RusgY_6JzboSLRtxuCEssqvCoLTk127Da9dXwd7ma4SVu1T5CkwPzQwdQ2XpXt7kIbhjQWjZFsZLBfVzRWyPtFhvqu0EiIDQ4Nx7_Y=w1428-h949-no");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1080px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+@keyframes initialEntrance{
+    from{opacity: 0}
+    to{opacity:.6}
+}
