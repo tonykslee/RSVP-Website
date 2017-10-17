@@ -179,13 +179,31 @@
               </div>
             </div>
             
-            <button id ="modalBtn" class="w3-button w3-black w3-right w3-section" type="submit">
-              <i class="fa fa-paper-plane"></i> Find My Reservation
-            </button>
+            
           </form>
+
+          <button id ="modalBtn" class="w3-button w3-black w3-right w3-section">
+            <i class="fa fa-paper-plane"></i> Find My Reservation
+          </button>
           
+          <div id="simpleModal" class="modal">
+            <div class="modal-content">
+                      <div class="modal-header">
+                          <span class="closeBtn">&times;</span>
+                          <h2>Modal Header</h2>
+              </div>
+              <div class = "modal-body">
+                <p>Hello...I'm a modal</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores perspiciatis facilis dolorum animi hic unde? Autem esse ipsam ab error amet, nesciunt tempore placeat qui iste sequi accusamus temporibus!</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          </div>
           
-          
+          <script src="main.js"></script>
+
         </div>
       </div>
     </div>
