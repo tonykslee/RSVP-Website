@@ -1,2 +1,2 @@
 # RSVP-Website
-A website to handle RSVP for my wedding
+A website where people can RSVP to my upcoming wedding, find relevant wedding information, and access the gift registry. Utilizing, HTML, PHP, SQL, Javascript, and Visual Studio Code.
