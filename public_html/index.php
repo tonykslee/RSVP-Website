@@ -183,7 +183,7 @@
             </button>
           </form>
 
-          <button id="modalBtn" class="button">Click Here</button>
+          <!-- <button id="modalBtn" class="button">Click Here</button> -->
           
           <div id="simpleModal" class="modal">
             <div class="modal-content">
